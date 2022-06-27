@@ -5,6 +5,49 @@
     Author URL: https://bootstrapmade.com
 */
 
+.navbar-nav{
+    margin-left: 20%;
+}
+
+#myNavbar .navbar-nav li a:hover{
+    color: #FFB03B;
+    transition: 1s;
+    transform: translateY(-7px);
+}
+
+.navbar-inverse{
+	background-color: transparent;
+	border-color:transparent;
+	transition: 0.2s;
+	height: 60px;
+}	
+
+.navbar-inverse .navbar-brand{
+	color: #fff;
+     padding-top: 18px;
+	font-family: 'Satisfy', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 25px;
+}
+#myNavbar li a{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size:19px;
+	padding: 20px;	
+	margin-right: 18px;
+	transition: 0.3s ease;
+
+}
+#myNavbar li a:hover{
+	color: #fcba03;
+	font-weight: bold;
+}#myNavbar ul .active{
+	color: #fcba03;
+	font-weight: bold;
+
+}
+
 body {
 	font-size: 15px;
     line-height: 1.52;
@@ -33,6 +76,7 @@ table {
     background: url(../img/NASBAKU.jpg) no-repeat center top;
     background-size: cover;
     min-height: 630px;
+    background-attachment: fixed;
 }
 .bg-color{
     background-color: RGBA(0, 0, 0, 0.61);
@@ -47,16 +91,16 @@ table {
     font-family: 'PT Sans', sans-serif;
     color: #fcfcfc;
     font-size: 34px;
+    
 }
 .section-padding{
     padding: 60px 0px;
 }
-.logo-name{
-    font-family: 'Satisfy', sans-serif;
-    font-size: 65px;
-    margin-top: 140px;
-    color: #FFB03B;
+
+.deskripsi{
+    margin-top: -170px;
 }
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -385,6 +429,7 @@ table {
     border: 1px solid #BBBBBB;
     text-decoration: none;
     cursor: pointer;
+    border-radius: 15px;
 }
 
 .footer {
