@@ -45,3 +45,18 @@ function closeNav() {
 	});
 
 })(jQuery);
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 100) {
+	    $(".navbar-inverse" ).css("background" , "#000");
+	    $(".navbar-nav").css("background" , "#000");
+	  }
+
+	  else{
+		  $(".navbar-inverse").css("background" , "transparent");
+		  $(".navbar-nav").css("background" , "transparent");  	
+	  }
+  })
+})
